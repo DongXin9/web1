@@ -1,0 +1,411 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	height: 173px;
+	background-color: #eeeeef;
+
+}
+.logo{
+	padding-top: 30px;
+	text-align: center;
+	height: 95px;
+}
+.nav{
+	width: 670px;
+	height: 45px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 23px;
+	list-style: none;
+}
+.nav li{
+	float: left;
+	height: 45px;
+	padding: 0 30px;
+	line-height: 45px;
+	background: url(../images/line.png) no-repeat right center;
+}
+#first{
+	color: #1e50ae;
+	display: block;
+	height: 42px;
+	border-bottom: 3px solid #1e50ae;
+	font-size: 14px;
+	font-style: 微软雅黑;	
+}
+.nav li a{
+	display: block;
+	height: 42px;
+	border-bottom: 3px solid white;
+	font-size: 14px;
+	font-style: 微软雅黑;
+}
+.nav li:last-child{
+	background: none;
+}
+.banner{
+	width:100%;
+	height:407px;
+	background: url(../images/banner.png) no-repeat center center; 
+}
+.serve{
+	width:1200px;
+	height: 810px;
+	margin: 0 auto;	
+}
+.head1{
+	padding-bottom: 25px;
+	padding-top: 60px;
+	font-size: 34px;
+	font-style: 微软雅黑;
+	text-align: center;
+}
+.head2{
+	padding-bottom: 60px;
+	font-size: 31.45px;
+	font-style: Aparajita;
+	text-align: center;
+}
+.head3{
+	width: 300px;
+	height: 368px;
+	float: left;
+}
+.headtop{
+	height: 151px;
+	text-align: center;
+}
+.headbottom{
+	height: 217px;
+	width: 300px;
+}
+.three{
+	margin-left: 105px;
+}
+.one{
+	list-style-image:url(images/li.png); 
+	list-style-position: inside;
+	font-size: 14px;
+	padding-bottom: 9px;
+	color: #a1a1a1;
+}
+.two{
+	padding-top: 20px;
+	padding-bottom: 15px;
+	font-size: 14px;
+	text-align: center;
+}
+.head4{
+	width: 300px;
+	height: 246px;
+	float: left;
+}
+.headtopp{
+	height: 151px;
+	text-align: center;
+}
+.headbottomm{
+	height: 95px;
+	width: 300px;
+}
+.four{
+	padding-top: 16px;
+	padding-bottom: 65px;
+	font-size: 14px;
+	text-align: center;
+}
+.solution{
+	width: 1560px;
+	height: 712px;
+	background: url(../images/solution.png);
+}
+.s1{
+	padding-bottom: 22px;
+	padding-top: 65px;
+	font-size: 34px;
+	font-style: 微软雅黑;
+	text-align: center;
+	color: white;
+}
+.s2{
+	padding-bottom: 75px;
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+.s3{
+	height:590px;
+	width:1200px;
+	margin:0 auto;
+}
+.xsolution{
+	margin-left:44px;
+	height:300px;
+	width:230px;
+	float:left;
+}
+.left{
+	margin-top: 74px;
+	width:30px;
+	height:300px;
+	text-align:center;
+	color:#929292;
+	float:left;
+	line-height: 300px;
+	font-size:44.98px;
+}
+.right{
+	margin-top:74px;
+	width:30px;
+	height:300px;
+	text-align:center;
+	color:#929292;
+	font-size:44.98px;
+	line-height: 300px;
+	float:right;
+}
+.box{
+	height:120px;
+	width:1200px;
+	float:left;
+	text-align:center;
+}
+.button{
+	width:230px;
+	height:50px;
+	font-size:24px;
+	color:#ffffff;
+	line-height: 50px;
+	border-radius: 25px;
+	border:1px solid #ffffff;
+	text-align: center;
+	margin: 0 auto;
+}
+.lasted{
+	width:1560px;
+	height:910px;
+}
+.lasted1{
+	padding-bottom: 22px;
+	padding-top: 58px;
+	font-size: 34px;
+	font-style: 微软雅黑;
+	text-align: center;
+	color:#000000;
+}
+.lasted2{
+	padding-bottom: 89px;
+	font-size: 31.5px;
+	text-align: center;
+	color:#000000;
+}
+.lastedbottom{
+	width: 1200px;
+	margin-left: 180px;
+}
+.lasted3{
+	height:300px;
+	width:530px;
+	margin-left: 70px;
+	float: left;
+}
+.lasted4{
+	height:350px;
+	width:575px;
+	margin-left: 25px;
+	float: left;
+}
+.lasted31{
+	font-size:22px;
+	margin-top:30px;
+	margin-bottom: 20px;
+}
+.lasted32{
+	font-size:18px;
+	margin-bottom: 33px;
+}
+.text1{
+	font-size:14px;
+	color:#969696;
+	line-height:32px;
+}
+.text2{
+	margin-top:30px;
+	width:142px;
+	border-radius: 20px;
+	border:1px solid #1141a3;
+	text-align:center;
+	font-size:16px;
+	color:#1141a3;
+	line-height:41px;
+}
+.text3{
+	list-style:none;
+	font-size:14px;
+	color:#797979;
+	line-height:47px;
+}
+.text3 li{
+	border-bottom:1px dashed #dcdcdc;
+}
+.text3 li:last-child{
+	border-bottom:none;
+}
+.icon{
+	width: 1560px;
+ 	height: 200px;
+	background-color: rgba(245, 245, 245, 1.0)
+}
+#icon1{
+	 margin-left: 228px;
+	 float: left;
+	 width: 250px;
+	 height: 100px;
+	 border-right: 1px rgb(0,0,0);
+}
+.icon2{
+	margin-left: 45px;
+	float: left;
+	width: 250px;
+	height: 100px;
+	border-right: 1px rgb(224,224,224);
+}
+#icon4{
+	float: left;
+	width: 250px;
+	height: 100px;
+}
+.icon11{
+	float: left;
+}
+#icon1 img{
+	float: left;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+.icon2 img{
+	float: left;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+#icon4 img{
+	float: left;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+.icon5{
+	margin-top: 35px;
+	height: 48px;
+	border-right: 1px solid black;
+}
+.icon6{
+	margin-top: 35px;
+	height: 48px;
+}
+.bottoma{
+	width: 1560px;
+	height: 260px;
+	background-color: rgb(50, 50, 50);
+}
+.bottomb{
+	width: 1560px;
+	height: 130px;
+	background-color: rgb(50, 50, 50);
+} 
+.bottoma li{
+    color: white;
+    margin-top: 20px;
+}
+.bottoma h4{
+    	padding-top: 70px;
+    	color: white;
+    }
+.bottoma1{
+	float: left;
+	margin-left: 180px;
+}
+.bottoma2{
+	float: left;
+	margin-left: 100px;
+}
+.bottoma3{
+	float: left;
+	margin-left: 100px;
+}
+.bottoma4{
+	float: left;
+	width: 230px;
+	height: 153px;
+	margin-top: 70px;
+	margin-left: 100px;
+	border-right: 1px solid white;
+    }
+.bottoma44 {
+	width: 22px;
+	height: 145px;
+	float: right;
+	margin-right: 32px;
+    margin-top: 16px;
+	color: white;
+}
+.bottom5{
+	width: 250px;
+	height: 150px;
+	color: white;
+	float: left;
+	margin-left: 45px;
+}
+.bottom5 h4{
+	margin-top: 15px;
+}
+.bottom6{
+
+}
+.bottom6 li{
+	margin-top: 15px;
+	list-style: url("../images/bottom02.png") inside;
+}
+#bottom62{
+	list-style: url("../images/bottom03.png") inside;
+}
+.bottomb li{
+	font-size: 14px;
+	float: left;
+	padding: 0 10px;
+	line-height: 38px;
+	margin-top:38px;
+	margin-left:20px;
+	color: white;
+	background: url(../images/line.png) no-repeat right center;
+	text-align: center;
+	list-style: none;
+}
+#bottomb11{
+    font-size: 14px;
+	float: left;
+	padding: 0 10px;
+	line-height: 38px;
+	margin-top:38px;
+	padding-left: 280px;
+	color: white;
+	background: url(../images/line.png) no-repeat right center;
+	text-align: center;
+}
+.bottomb1::after{
+    content:".";
+    clear:both;
+    display:block;
+    height:0;
+    overflow:hidden;
+    visibility:hidden;
+}
+.bottomb p{
+	text-align: center;
+	margin-top: 18px;
+	color: white;
+}
